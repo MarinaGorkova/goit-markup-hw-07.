@@ -1,0 +1,55 @@
+.about {
+    background-color: white;
+    padding-top: 94px;
+    padding-bottom: 94px;
+       
+}
+.about-item:nth-child(1) {
+    margin-left: 0;
+}
+
+.about-list {
+    display: flex;
+    }
+
+.about-item-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+    margin-bottom: 10px;
+    
+}
+.about-item-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color); 
+    
+}
+.about-item-photo-img {
+    display: flex;
+    justify-content: center;
+}
+.about-item-title-img {
+    & + & {
+    margin-left: 30px;
+    }
+}
+.about-item-link {
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #F5F4FA;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    
+}
