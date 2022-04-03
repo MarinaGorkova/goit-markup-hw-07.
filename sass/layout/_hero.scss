@@ -21,11 +21,10 @@
     
 }
 .list-btn {
-    display: flex;
     border-radius: 4px;
     padding: 6px 22px;
     text-align: center;
-    align-items: center; 
+    @extend %align-list; 
     justify-content: center;
     
 }

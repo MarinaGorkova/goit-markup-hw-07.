@@ -31,8 +31,7 @@
     height: 30px;
     border-radius: 50%;
     background-color: transparent;
-    display: flex;
-    align-items: center;
+    @extend %align-list;
     justify-content: center;
     position: absolute;
     top: 8px;
@@ -145,9 +144,8 @@
     font-size: 14px;
     color: hsl(0, 0%, 46%);
     line-height: 24px;
-    display: flex;
     margin-top: 20px;
-    align-items: center;
+    @extend %align-list;
     &::before {
         content: "";
         width: 15px;

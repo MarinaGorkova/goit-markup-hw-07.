@@ -16,8 +16,7 @@
     margin-right: 0;
 }
 .header-container {
-    display: flex;
-    align-items: center;
+    @extend %align-list;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -83,8 +82,7 @@
     line-height: 1.4;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    display: flex;  
-    align-items: center;
+    @extend %align-list;
     transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
     &:hover,&:focus {
         color: #2196F3;

@@ -45,9 +45,8 @@
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    @extend %align-list;
     border: 1px solid #F5F4FA;
     box-sizing: border-box;
     margin-bottom: 30px;
