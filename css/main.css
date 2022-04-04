@@ -44,7 +44,7 @@ img {
   display: block;
 }
 
-.modal-close, .check-text, .header-container, .header-tel, .list-btn, .about-item-link, .footer-social-link {
+.modal-close, .check-text, .header__container, .connect__tel, .list-btn, .about-item-link, .footer-social-link {
   display: flex;
   align-items: center;
 }
@@ -278,19 +278,19 @@ body {
   border-bottom: 1px solid #ECECEC;
 }
 
-.header-logo {
+.header__logo {
   margin-right: 93px;
 }
 
-.header-item {
+.site-list__item {
   margin-right: 50px;
 }
 
-.header-item:last-child {
+.site-list__item:last-child {
   margin-right: 0;
 }
 
-.header-container {
+.header__container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -305,7 +305,7 @@ body {
   align-items: center;
 }
 
-.header-logo {
+.header__logo {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -321,7 +321,7 @@ body {
   color: var(--accent-color);
 }
 
-.header-link {
+.site-list__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -331,7 +331,7 @@ body {
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.header-link:hover, .header-link:focus {
+.site-list__link:hover, .site-list__link:focus {
   color: #2196F3;
 }
 
@@ -351,7 +351,7 @@ body {
   bottom: -32px;
 }
 
-.header-tel {
+.connect__tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -360,16 +360,16 @@ body {
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.header-tel:hover, .header-tel:focus {
+.connect__tel:hover, .connect__tel:focus {
   color: #2196F3;
 }
 
-.header-tel:hover .header-mail,
-.header-tel:focus .header-mail {
+.connect__tel:hover .connect__mail,
+.connect__tel:focus .connect__mail {
   fill: #2196F3;
 }
 
-.header-tel:last-child {
+.connect__tel:last-child {
   margin-left: 50px;
 }
 
@@ -378,7 +378,7 @@ body {
   display: flex;
 }
 
-.header-mail {
+.connect__mail {
   align-items: center;
   margin-right: 10px;
   fill: var(--text-color);
@@ -399,7 +399,7 @@ body {
   padding-top: 200px;
 }
 
-.hero-container {
+.hero__container {
   text-align: center;
 }
 
@@ -416,7 +416,7 @@ body {
   background-color: white;
 }
 
-.hero-title {
+.hero__title {
   margin-top: 0;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
@@ -431,7 +431,7 @@ body {
   margin: auto;
 }
 
-.hero-btn {
+.hero__btn {
   font-family: inherit;
   font-weight: bold;
   font-size: 16px;
