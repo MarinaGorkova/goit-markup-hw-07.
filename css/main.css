@@ -44,7 +44,7 @@ img {
   display: block;
 }
 
-.modal-close, .check-text, .header__container, .connect__tel, .list-btn, .about-item-link, .footer-social-link {
+.modal-close, .check-text, .header__container, .connect__tel, .list-btn, .about-item__link, .footer__social-link {
   display: flex;
   align-items: center;
 }
@@ -481,6 +481,12 @@ body {
   padding-bottom: 94px;
 }
 
+.about-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
 .about-item:nth-child(1) {
   margin-left: 0;
 }
@@ -489,7 +495,7 @@ body {
   display: flex;
 }
 
-.about-item-title {
+.about-item__title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -500,7 +506,7 @@ body {
   margin-bottom: 10px;
 }
 
-.about-item-text {
+.about-item__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -508,16 +514,16 @@ body {
   color: var(--text-color);
 }
 
-.about-item-photo-img {
+.about-item__photo-img {
   display: flex;
   justify-content: center;
 }
 
-.about-item-title-img + .about-item-title-img {
+.about-item__title-img + .about-item__title-img {
   margin-left: 30px;
 }
 
-.about-item-link {
+.about-item__link {
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
@@ -546,14 +552,14 @@ body {
   margin-bottom: 50px;
 }
 
-.about-img {
+.images-list {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
   margin-bottom: -30px;
 }
 
-.about-list-img {
+.images-list__img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
@@ -561,7 +567,7 @@ body {
   list-style-type: none;
 }
 
-.about-list-img-text {
+.images-list__text {
   position: absolute;
   background-color: rgba(47, 48, 58, 0.8);
   color: #FFFFFF;
@@ -585,18 +591,12 @@ body {
   margin-bottom: -30px;
 }
 
-.about-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-bottom: 30px;
-}
-
-.about-item-name {
+.about-team__name {
   padding-top: 30px;
   padding-bottom: 10px;
 }
 
-.about-item-img {
+.about-team__img {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-bottom: 30px;
@@ -611,7 +611,7 @@ body {
   background-color: #F5F4FA;
 }
 
-.about-item-name {
+.about-team__name {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -622,7 +622,7 @@ body {
   color: var(--second-title-color);
 }
 
-.about-item-profession {
+.about-team__profession {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -634,20 +634,20 @@ body {
   margin-bottom: 16px;
 }
 
-.about-item-content {
+.about-team__content {
   margin-bottom: 30px;
 }
 
-.about-team-social-list {
+.about-team__social-list {
   display: flex;
   justify-content: center;
 }
 
-.about-team-social-item + .about-team-social-item {
+.about-team__social-item + .about-team__social-item {
   margin-left: 10px;
 }
 
-.about-team-social-link {
+.about-team__social-link {
   width: 44px;
   height: 44px;
   background-color: #ffffff;
@@ -658,16 +658,16 @@ body {
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.about-team-social-link:hover, .about-team-social-link:focus {
+.about-team__social-link:hover, .about-team__social-link:focus {
   background-color: #2196F3;
 }
 
-.about-team-social-link:hover .about-team-social-icon,
-.about-team-social-link:focus .about-team-social-icon {
+.about-team__social-link:hover .about-team__social-icon,
+.about-team__social-link:focus .about-team__social-icon {
   fill: #FFFFFF;
 }
 
-.about-team-social-icon {
+.about-team__social-icon {
   fill: #AFB1B8;
   transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
@@ -751,11 +751,11 @@ body {
   margin-bottom: 94px;
 }
 
-.about-clients-img + .about-clients-img {
+.about-clients__img + .about-clients__img {
   margin-left: 30px;
 }
 
-.about-clients-link {
+.about-clients__link {
   width: 170px;
   height: 92px;
   background-color: #ffffff;
@@ -769,16 +769,16 @@ body {
   transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.about-clients-link:hover, .about-clients-link:focus {
+.about-clients__link:hover, .about-clients__link:focus {
   border: 1px solid #2196F3;
 }
 
-.about-clients-link:hover .about-clients-icon,
-.about-clients-link:focus .about-clients-icon {
+.about-clients__link:hover .about-clients__icon,
+.about-clients__link:focus .about-clients__icon {
   fill: #2196F3;
 }
 
-.about-clients-icon {
+.about-clients__icon {
   fill: #AFB1B8;
   transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
@@ -789,7 +789,7 @@ body {
   padding-bottom: 60px;
 }
 
-.footer-name {
+.footer__name {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -800,7 +800,7 @@ body {
   margin-bottom: 20px;
 }
 
-.footer-name-web {
+.footer__name-web {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -809,7 +809,7 @@ body {
   text-decoration: none;
 }
 
-.footer-link-adress {
+.footer__link-adress {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -820,11 +820,11 @@ body {
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.footer-link-adress:hover, .footer-link-adress:focus {
+.footer__link-adress:hover, .footer__link-adress:focus {
   color: var(--accent-color);
 }
 
-.footer-link {
+.footer__link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -835,7 +835,7 @@ body {
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.footer-link:hover, .footer-link:focus {
+.footer__link:hover, .footer__link:focus {
   color: var(--accent-color);
 }
 
@@ -848,11 +848,11 @@ body {
   justify-content: center;
 }
 
-.footer-social-item + .footer-social-item {
+.footer__social-item + .footer__social-item {
   margin-left: 10px;
 }
 
-.footer-social-link {
+.footer__social-link {
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
@@ -862,16 +862,16 @@ body {
   transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.footer-social-link:hover, .footer-social-link:focus {
+.footer__social-link:hover, .footer__social-link:focus {
   background-color: #2196F3;
 }
 
-.footer-social-link:hover .footer-social-icon,
-.footer-social-link:focus .footer-social-icon {
+.footer__social-link:hover .footer__social-icon,
+.footer__social-link:focus .footer__social-icon {
   fill: #FFFFFF;
 }
 
-.footer-social-icon {
+.footer__social-icon {
   fill: #ffffff;
   transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }

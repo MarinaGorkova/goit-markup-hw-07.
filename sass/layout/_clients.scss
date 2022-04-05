@@ -6,12 +6,12 @@
     justify-content: center;
     margin-bottom: 94px;
 }
-.about-clients-img {
+.about-clients__img {
     & + & {
     margin-left: 30px;
     }
 }
-.about-clients-link {
+.about-clients__link {
     width: 170px;
     height: 92px;
     background-color: #ffffff;
@@ -26,12 +26,12 @@
     &:hover,&:focus {
         border: 1px solid #2196F3;
     }
-    &:hover .about-clients-icon,
-    &:focus .about-clients-icon {    
+    &:hover .about-clients__icon,
+    &:focus .about-clients__icon {    
         fill: #2196F3;        
     }
 }
-.about-clients-icon {
+.about-clients__icon {
     fill: #AFB1B8;
     transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
