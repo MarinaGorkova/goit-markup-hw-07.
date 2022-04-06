@@ -24,23 +24,23 @@
     &:hover {
     transition: transform 500ms;
     }
+    &-close {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: transparent;
+        @extend %align-list;
+        justify-content: center;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        padding: 0;
+    }
 }
 
-.modal-close {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: transparent;
-    @extend %align-list;
-    justify-content: center;
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    padding: 0;
-}
 .modal-close-icon {
     color: #000000;
     align-items: center;
