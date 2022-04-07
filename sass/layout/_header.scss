@@ -37,7 +37,7 @@
 }
 
 
-.connect__tel {
+.connect__name {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.4;
@@ -48,12 +48,12 @@
     &:hover,&:focus {
         color: #2196F3;
     }
-    &:hover .connect__mail,
-    &:focus .connect__mail {
+    &:hover .connect__img,
+    &:focus .connect__img {
         fill: #2196F3;
     }
 }
-.connect__tel:last-child {
+.connect__name:last-child {
     margin-left: 50px;
 }
 
@@ -62,7 +62,7 @@
     display: flex;    
 }
 
-.connect__mail {
+.connect__img {
     align-items: center;
     margin-right: 10px;
     fill: var(--text-color);

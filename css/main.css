@@ -44,7 +44,7 @@ img {
   display: block;
 }
 
-.modal-close, .check-text, .list-btn, .header__container, .connect__tel, .about-item__link, .footer__social-link {
+.modal-close, .check-text, .list-btn, .header__container, .connect__name, .about-list__link, .footer__social-link {
   display: flex;
   align-items: center;
 }
@@ -475,7 +475,7 @@ body {
   color: #2196F3;
 }
 
-.connect__tel {
+.connect__name {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
@@ -484,16 +484,16 @@ body {
   transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.connect__tel:hover, .connect__tel:focus {
+.connect__name:hover, .connect__name:focus {
   color: #2196F3;
 }
 
-.connect__tel:hover .connect__mail,
-.connect__tel:focus .connect__mail {
+.connect__name:hover .connect__img,
+.connect__name:focus .connect__img {
   fill: #2196F3;
 }
 
-.connect__tel:last-child {
+.connect__name:last-child {
   margin-left: 50px;
 }
 
@@ -502,7 +502,7 @@ body {
   display: flex;
 }
 
-.connect__mail {
+.connect__img {
   align-items: center;
   margin-right: 10px;
   fill: var(--text-color);
@@ -587,16 +587,11 @@ body {
   color: var(--text-color);
 }
 
-.about-item__photo-img {
-  display: flex;
-  justify-content: center;
-}
-
-.about-item__title-img + .about-item__title-img {
+.about-list__title-img + .about-list__title-img {
   margin-left: 30px;
 }
 
-.about-item__link {
+.about-list__link {
   width: 270px;
   height: 120px;
   background-color: #F5F4FA;
